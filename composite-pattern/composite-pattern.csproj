@@ -8,10 +8,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Component\" />
-    <Folder Include="Composite\" />
-    <Folder Include="Leaf\" />
-  </ItemGroup>
-
 </Project>
