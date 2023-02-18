@@ -1,6 +1,8 @@
 ﻿namespace composite_pattern.Component
 {
-    public interface EmployeeOperations
+    public interface IEmployeeOperations
     {
+        public void Add(Employee employee);
+        public void Remove(Employee employee);
     }
 }
