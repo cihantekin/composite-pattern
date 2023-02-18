@@ -2,10 +2,11 @@
 
 namespace composite_pattern.Composite
 {
-    public class Department : Employee, IEmployeeOperations 
+    public class Department : Employee, IOperations<Employee> 
     {
         private readonly IList<Employee> employees;
         protected decimal MonthlyExpense { get; set; }
+
         public Department(string name, decimal monthlyExpense) : base(name, monthlyExpense)
         {
             MonthlyExpense = monthlyExpense;
