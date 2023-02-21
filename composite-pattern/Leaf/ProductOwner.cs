@@ -4,9 +4,7 @@ namespace composite_pattern.Leaf
 {
     public class ProductOwner : Employee
     {
-        public ProductOwner(string name, decimal salary) : base(name, salary)
-        {
-        }
+        public ProductOwner(string name, decimal salary) : base(name, salary) {}
 
         public override decimal CalculateExpense()
         {

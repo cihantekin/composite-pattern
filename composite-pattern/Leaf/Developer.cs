@@ -4,9 +4,7 @@ namespace composite_pattern.Leaf
 {
     public class Developer : Employee
     {
-        public Developer(string name, decimal salary) : base(name, salary)
-        {
-        }
+        public Developer(string name, decimal salary) : base(name, salary) {}
 
         public override decimal CalculateExpense()
         {

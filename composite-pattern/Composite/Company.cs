@@ -35,7 +35,7 @@ namespace composite_pattern.Composite
                 }
             }
 
-            Console.WriteLine($"{Name} company total expenses (included General expenses for company and departmentexpenses :) {totalExpenseForCompany}");
+            Console.WriteLine($"{Name} company total expenses (included General expenses for company and departmentexpenses : {totalExpenseForCompany}");
             return totalExpenseForCompany;
         }
     }

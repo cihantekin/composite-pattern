@@ -5,7 +5,7 @@
         protected string Name { get; set; }
         protected decimal Salary { get; set; }
 
-        public Employee(string name, decimal salary)
+        protected Employee(string name, decimal salary)
         {
             Name = name;
             Salary = salary;

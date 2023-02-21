@@ -23,4 +23,4 @@ it.Add(dev2);
 it.Add(dev3);
 it.Add(dev4);
 
-Console.WriteLine(it.CalculateExpense());
+it.CalculateExpense();
